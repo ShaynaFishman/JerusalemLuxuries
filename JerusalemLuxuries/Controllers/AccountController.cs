@@ -12,7 +12,7 @@ using JerusalemLuxuries.Models;
 
 namespace JerusalemLuxuries.Controllers
 {
-    [Authorize]
+    [Authorize] //Testing push and pull :)
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
