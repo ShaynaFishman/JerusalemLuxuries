@@ -21,20 +21,27 @@ namespace JerusalemLuxuries.Models
         public DateTime FromDate { get; set; }
         public DateTime ToDate { get; set; }
         public int ContractLength { get; set; }
-        public int Pictures { get; set; }
+        //public byte Pictures { get; set; }
         public bool Swap { get; set; }
+
+        [ForeignKey("PosterId")]
+        public int PosterId { get; set; }
+
+        [ForeignKey("AssetId")]
+        public int AssetId { get; set; }
+
+        [ForeignKey("DescriptionId")]
+        public int DescriptionId { get; set; }
+
+        [ForeignKey("PropertyCatId")]
+        public int PropertyCatId { get; set; }
 
         [ForeignKey("ShortCatId")]
         public int ShortCatId { get; set; }
-        [ForeignKey("PosterId")]
-        public int PosterId { get; set; }
-        [ForeignKey("AssetId")]
-        public int AssetId { get; set; }
-        [ForeignKey("DescriptionId")]
-        public int DescriptionId { get; set; }
-        //[ForeignKey("FeedbackId")]
-        //public int FeedbackId { get; set; }
-        [ForeignKey("PropertyCatId")]
-        public int PropertyCatId { get; set; }
+
+        public List<FeedbackModel> FeedbackId { get; set; }
+        public List<PictureModel> PictureId { get; set; }
+
+        public List<AccountingModel> AccountingId { get; set; }
     }
 }
