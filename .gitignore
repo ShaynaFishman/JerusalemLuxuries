@@ -132,3 +132,6 @@ $RECYCLE.BIN/
 
 _NCrunch*
 .vs/JerusalemLuxuries/v16/.suo
+.vs/JerusalemLuxuries/config/applicationhost.config
+*.cache
+*.config
