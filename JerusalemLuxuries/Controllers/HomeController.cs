@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace JerusalemLuxuries.Controllers
 {
+    //comments
     public class HomeController : Controller
     {
         public ActionResult Index()
