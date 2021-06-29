@@ -13,10 +13,20 @@ namespace JerusalemLuxuries.Models
         public int PropertyId { get; set; }
         public bool Visible { get; set; }
         public decimal Price { get; set; }
+        
+        [MaxLength(100)]
         public string Neighborhood { get; set; }
+
+        [MaxLength(100)]
+        public string Street { get; set; }
+        
+        [MaxLength(100)]
         public string City { get; set; }
+        
+        [MaxLength(15)]
+        public string ZipCode { get; set; }
+        
         public bool Rent { get; set; }
-        public string Road { get; set; }
         public int Size { get; set; }
         public DateTime FromDate { get; set; }
         public DateTime ToDate { get; set; }
