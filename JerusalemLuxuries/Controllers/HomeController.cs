@@ -7,6 +7,7 @@ using System.Web.Mvc;
 namespace JerusalemLuxuries.Controllers
 {
     //I'm trying to change the comment
+    //change comment
     public class HomeController : Controller
     {
         public ActionResult Index()
