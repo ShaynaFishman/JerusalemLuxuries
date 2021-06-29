@@ -11,7 +11,7 @@ namespace JerusalemLuxuries.Models
         [Key]
         public int PropertyCatId { get; set; }
         
-        [MaxLength(40)]
+        [MaxLength(60)]
         public string Name { get; set; }
 
     }
