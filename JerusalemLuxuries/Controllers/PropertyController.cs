@@ -6,28 +6,27 @@ using System.Web.Mvc;
 
 namespace JerusalemLuxuries.Controllers
 {
-    public class PosterController : Controller
+    public class PropertyController : Controller
     {
-        // GET: Poster
-        
+        // GET: Property
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: Poster/Details/5
+        // GET: Property/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Poster/Create
+        // GET: Property/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Poster/Create
+        // POST: Property/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -43,13 +42,13 @@ namespace JerusalemLuxuries.Controllers
             }
         }
 
-        // GET: Poster/Edit/5
+        // GET: Property/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Poster/Edit/5
+        // POST: Property/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -65,13 +64,13 @@ namespace JerusalemLuxuries.Controllers
             }
         }
 
-        // GET: Poster/Delete/5
+        // GET: Property/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Poster/Delete/5
+        // POST: Property/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
