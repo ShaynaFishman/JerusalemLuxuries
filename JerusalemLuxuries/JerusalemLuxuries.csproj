@@ -181,6 +181,9 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PaymentMethodController.cs" />
     <Compile Include="Controllers\PosterController.cs" />
+    <Compile Include="Controllers\PropertyCategoryController.cs" />
+    <Compile Include="Controllers\PropertyController.cs" />
+    <Compile Include="Controllers\ShortTermCategoryController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -280,6 +283,9 @@
     <Folder Include="Views\Feedback\" />
     <Folder Include="Views\PaymentMethod\" />
     <Folder Include="Views\Poster\" />
+    <Folder Include="Views\PropertyCategory\" />
+    <Folder Include="Views\Property\" />
+    <Folder Include="Views\ShortTermCategory\" />
     <Folder Include="Views\User\" />
   </ItemGroup>
   <ItemGroup>

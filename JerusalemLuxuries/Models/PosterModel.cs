@@ -9,7 +9,7 @@ namespace JerusalemLuxuries.Models
 {
     public class PosterModel
     {
-        //comment back 
+        //comment change
         [Key]
         public int PosterId { get; set; }
 
