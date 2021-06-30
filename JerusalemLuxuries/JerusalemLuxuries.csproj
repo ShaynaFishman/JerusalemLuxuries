@@ -276,7 +276,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Accounting\" />
     <Folder Include="Views\Assets\" />
     <Folder Include="Views\CartdInfo\" />
     <Folder Include="Views\Description\" />
