@@ -9,6 +9,9 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using JerusalemLuxuries.Models;
+using JerusalemLuxuryDomain.Models;
+using JerusalemLuxuryDomain.DataSource;
+
 
 namespace JerusalemLuxuries.Controllers
 {

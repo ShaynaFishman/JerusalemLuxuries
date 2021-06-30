@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using JerusalemLuxuryDomain.Models;
+using JerusalemLuxuryDomain.DataSource;
+using JerusalemLuxuries.Models;
 
 namespace JerusalemLuxuries.Controllers
 {
