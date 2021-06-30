@@ -5,9 +5,9 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace JerusalemLuxuries.Models
+namespace JerusalemLuxuryDomain.Models
 {
-    public class PosterModel
+    public class Poster
     {
         //comment change
         [Key]
