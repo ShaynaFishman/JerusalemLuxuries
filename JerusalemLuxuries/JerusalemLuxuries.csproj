@@ -175,6 +175,7 @@
     <Compile Include="Controllers\AccountingController.cs" />
     <Compile Include="Controllers\AssetsController.cs" />
     <Compile Include="Controllers\CartdInfoController.cs" />
+    <Compile Include="Controllers\DescriptionController.cs" />
     <Compile Include="Controllers\FeedbackController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -275,6 +276,7 @@
     <Folder Include="Views\Accounting\" />
     <Folder Include="Views\Assets\" />
     <Folder Include="Views\CartdInfo\" />
+    <Folder Include="Views\Description\" />
     <Folder Include="Views\Feedback\" />
     <Folder Include="Views\PaymentMethod\" />
     <Folder Include="Views\Poster\" />
