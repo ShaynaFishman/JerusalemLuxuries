@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JerusalemLuxuries", "JerusalemLuxuries\JerusalemLuxuries.csproj", "{A66082B2-BFB8-4063-A330-818A07895CC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JerusalemLuxuryDomain", "JerusalemLuxuryDomain\JerusalemLuxuryDomain.csproj", "{DD45BF0D-DCC3-4478-BB63-653C6B014326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A66082B2-BFB8-4063-A330-818A07895CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A66082B2-BFB8-4063-A330-818A07895CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A66082B2-BFB8-4063-A330-818A07895CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD45BF0D-DCC3-4478-BB63-653C6B014326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD45BF0D-DCC3-4478-BB63-653C6B014326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD45BF0D-DCC3-4478-BB63-653C6B014326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD45BF0D-DCC3-4478-BB63-653C6B014326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
