@@ -178,11 +178,14 @@
     </Compile>
     <Compile Include="Models\AccountingModel.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AssetsModel.cs" />
     <Compile Include="Models\CardInfoModel.cs" />
+    <Compile Include="Models\FeedbackModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\PaymentMethodModel.cs" />
     <Compile Include="Models\PosterModel.cs" />
+    <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -197,6 +200,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="App.Config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
