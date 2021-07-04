@@ -14,8 +14,8 @@ namespace JerusalemLuxuries.Models
         public int Rating { get; set; }
         public bool Approved { get; set; }
         public bool WebsiteFeedback { get; set; }
-        [ForeignKey("UserId")] public int UserId { get; set; }
-        [ForeignKey("PosterId")] public int PosterId { get; set; }
-        [ForeignKey("Property")] public int PropertyId { get; set; }
+        [ForeignKey("UserIdModel")] public int UserId { get; set; }
+        [ForeignKey("PosterIdModel")] public int PosterId { get; set; }
+        [ForeignKey("PropertyModel")] public int PropertyId { get; set; }
     }
 }

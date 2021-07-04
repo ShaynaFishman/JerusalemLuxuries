@@ -11,6 +11,6 @@ namespace JerusalemLuxuries.Models
     {
         [Key] public int ImageId { get; set; }
         public byte[] PropertyImage { get; set; }
-        [ForeignKey("Property")] public int PropertyId { get; set; }
+        [ForeignKey("PropertyModel")] public int PropertyId { get; set; }
     }
 }

@@ -21,7 +21,7 @@ namespace JerusalemLuxuries.Models
         [MaxLength(40)] public string City { get; set; }
         [MaxLength(40)] public string State { get; set; }
         [MaxLength(40)] public string ZipCode { get; set; }
-        [ForeignKey("Poster")] public int PosterId { get; set; }
-        [ForeignKey("User")] public int UserId { get; set; }
+        [ForeignKey("PosterModel")] public int PosterId { get; set; }
+        [ForeignKey("UserModel")] public int UserId { get; set; }
     }
 }

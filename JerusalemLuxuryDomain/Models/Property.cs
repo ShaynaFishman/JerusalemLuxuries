@@ -26,9 +26,9 @@ namespace JerusalemLuxuryDomain.Models
         public int ContractLength { get; set; }
         //public byte Pictures { get; set; }
         public bool Swap { get; set; }
-        [ForeignKey("PosterId")] public int PosterId { get; set; }
-        [ForeignKey("AssetId")] public int AssetId { get; set; }
-        [ForeignKey("DescriptionId")] public int DescriptionId { get; set; }        
+        [ForeignKey("Poster")] public int PosterId { get; set; }
+        [ForeignKey("Asset")] public int AssetId { get; set; }
+        [ForeignKey("Description")] public int DescriptionId { get; set; }        
         [ForeignKey("PropertyCategory")] public int PropertyCategoryId { get; set; }
         [ForeignKey("ShortTermCategory")] public int ShortTermCategoryId { get; set; }
         //public List<Feedback> FeedbackId { get; set; }

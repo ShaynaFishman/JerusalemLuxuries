@@ -13,9 +13,9 @@ namespace JerusalemLuxuries.Models
         [Key] public int AccountingId { get; set; }
         public decimal Amount { get; set; }
         public DateTime Date { get; set; }
-        [ForeignKey("UserId")] public int UserId { get; set; }
-        [ForeignKey("PosterId")] public int PosterId { get; set; }
-        [ForeignKey("PaymentId")] public int PaymentId { get; set; }
-        [ForeignKey("PropertyId")] public int PropertyId { get; set; }
+        [ForeignKey("UserModel")] public int UserId { get; set; }
+        [ForeignKey("PosterModel")] public int PosterId { get; set; }
+        [ForeignKey("PaymentModel")] public int PaymentId { get; set; }
+        [ForeignKey("PropertyModel")] public int PropertyId { get; set; }
     }
 }

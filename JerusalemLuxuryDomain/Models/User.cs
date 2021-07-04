@@ -18,6 +18,6 @@ namespace JerusalemLuxuryDomain.Models
         public bool PaidSubscriber { get; set; }
         public DateTime RenewalDate { get; set; }
         public bool OptOut { get; set; }
-        [ForeignKey("PaymentMethod")] public int PaymentMethodId { get; set; }
+        [ForeignKey("PaymentMethod")] public List<PaymentMethod> PaymentMethodId { get; set; }
     }
 }

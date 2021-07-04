@@ -20,6 +20,6 @@ namespace JerusalemLuxuryDomain.Models
         public byte[] ProfileImage { get; set; }
         [MaxLength(15)] public string ContactNumber { get; set; }
         public DateTime RenewalDate { get; set; }
-        [ForeignKey("PaymentMethod")] public List<PaymentMethod> PaymentMethod { get; set; }
+        [ForeignKey("PaymentMethod")] public List<PaymentMethod> PaymentMethodId { get; set; }
     }
 }
