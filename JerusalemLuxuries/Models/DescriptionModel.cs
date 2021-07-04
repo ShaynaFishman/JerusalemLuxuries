@@ -9,14 +9,12 @@ namespace JerusalemLuxuries.Models
 {
     public class DescriptionModel
     {
-        [Key]
-        public int DescriptionId { get; set; }
-
+        [Key] public int DescriptionId { get; set; }
         public decimal Rooms { get; set; }
         public bool Porch { get; set; }
-        public bool Lift { get; set; }
-        public int Floor { get; set; }
+        //public bool Lift { get; set; }
+        public int Floors { get; set; }
         public int Bathrooms { get; set; }
-        public bool SeparateKitchenAndDining { get; set; }
+        public bool SeparateKitchenDining { get; set; }
     }
 }
