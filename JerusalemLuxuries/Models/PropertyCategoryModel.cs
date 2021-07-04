@@ -8,11 +8,7 @@ namespace JerusalemLuxuries.Models
 {
     public class PropertyCategoryModel
     {
-        [Key]
-        public int PropertyCatId { get; set; }
-        
-        [MaxLength(60)]
-        public string Name { get; set; }
-
+        [Key]  public int PropertyCategoryId { get; set; }
+        [MaxLength(60)] public string PCDescription { get; set; }
     }
 }
