@@ -6,14 +6,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace JerusalemLuxuries.Models
 {
-    public class AssetsModel
+    public class AssetModel
     {
-        [Key]
-        public int AssetsId { get; set; }
-
+        [Key] public int AssetId { get; set; }
+        public bool MyProperty { get; set; }
         public bool Renovated { get; set; }
         public bool New { get; set; }
-        public bool AirConditioning { get; set; }
+        public bool AirCondition { get; set; }
         public bool Fan { get; set; }
         public bool Heating { get; set; }
         public bool Wifi { get; set; }
@@ -45,7 +44,10 @@ namespace JerusalemLuxuries.Models
         public bool Crib { get; set; }
         public bool Couch { get; set; }
         public bool PesachItems { get; set; }
+        public bool Sukkah { get; set; }
         public bool SukkosItems { get; set; }
-        public bool Sukkoh { get; set; }
+        public bool Pool { get; set; }
+        public bool FrontYard { get; set; }
+        public bool BackYard { get; set; }
     }
 }

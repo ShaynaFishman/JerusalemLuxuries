@@ -9,20 +9,14 @@ namespace JerusalemLuxuries.Models
 {
     public class UserModel
     {
-
-        [Key]
-        public int UserId { get; set; }
-
+        [Key] public int UserId { get; set; }
         [MaxLength(30)] public string FirstName { get; set; }
         [MaxLength(30)] public string LastName { get; set; }
         [MaxLength(320)] public string Email { get; set; }
-        [MaxLength(15)] public string ContactNumber { get;set; }
+        [MaxLength(15)] public string ContactNumber { get; set; }
         public bool PaidSubscriber { get; set; }
         public DateTime RenewalDate { get; set; }
         public bool OptOut { get; set; }
-        [ForeignKey("PaymentMethodModel")]
-        public int PaymentMethodId { get; set; }
-
-
+        [ForeignKey("PaymentMethod")] public int PaymentMethodId { get; set; }
     }
 }

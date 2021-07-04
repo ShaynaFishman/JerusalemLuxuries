@@ -7,12 +7,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JerusalemLuxuryDomain.Models
 {
+    [Table("Poster")]
+
     public class Poster
     {
-        //comment change
-        [Key]
-        public int PosterId { get; set; }
-
+        [Key] public int PosterId { get; set; }
         [MaxLength(30)] public string FirstName { get; set; }
         [MaxLength(30)] public string LastName { get; set; }
         [MaxLength(320)] public string Email { get; set; }
@@ -21,8 +20,6 @@ namespace JerusalemLuxuryDomain.Models
         public byte[] ProfileImage { get; set; }
         [MaxLength(15)] public string ContactNumber { get; set; }
         public DateTime RenewalDate { get; set; }
-
-        [ForeignKey("PaymentMethodModel")]
-        public List<PaymentMethod> PaymentMethod { get; set; }
+        [ForeignKey("PaymentMethod")] public List<PaymentMethod> PaymentMethod { get; set; }
     }
 }

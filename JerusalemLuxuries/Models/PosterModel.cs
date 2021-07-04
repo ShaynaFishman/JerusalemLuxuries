@@ -9,10 +9,7 @@ namespace JerusalemLuxuries.Models
 {
     public class PosterModel
     {
-        //comment change
-        [Key]
-        public int PosterId { get; set; }
-
+        [Key] public int PosterId { get; set; }
         [MaxLength(30)] public string FirstName { get; set; }
         [MaxLength(30)] public string LastName { get; set; }
         [MaxLength(320)] public string Email { get; set; }
@@ -21,8 +18,6 @@ namespace JerusalemLuxuries.Models
         public byte[] ProfileImage { get; set; }
         [MaxLength(15)] public string ContactNumber { get; set; }
         public DateTime RenewalDate { get; set; }
-
-        [ForeignKey("PaymentMethodModel")]
-        public List<PaymentMethodModel> PaymentMethod { get; set; }
+        [ForeignKey("PaymentMethod")] public List<PaymentMethod> PaymentMethod { get; set; }
     }
 }

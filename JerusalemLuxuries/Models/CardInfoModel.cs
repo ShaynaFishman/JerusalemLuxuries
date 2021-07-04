@@ -10,25 +10,18 @@ namespace JerusalemLuxuries.Models
 {
     public class CardInfoModel
     {
-        [Key]
-        public int CardInfoId { get; set; }
-
+        [Key] public int CardInfoId { get; set; }
+        [MaxLength(30)] public string FirstName { get; set; }
+        [MaxLength(30)] public string LastName { get; set; }
         public int CardNumber { get; set; }
         public int ExpirationMonth { get; set; }
         public int ExpirationYear { get; set; }
-        public int SecurityCode { get; set; }
-        [MaxLength(30)] public string FirstName { get; set; }
-        [MaxLength(30)] public string LastName { get; set; }
+        public int Security { get; set; }
         [MaxLength(40)] public string Address { get; set; }
-        public int ZipCode { get; set; }
-
-        [ForeignKey("Poster")]
-        public int PosterId { get; set; }
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-
-
-
-
+        [MaxLength(40)] public string City { get; set; }
+        [MaxLength(40)] public string State { get; set; }
+        [MaxLength(40)] public string ZipCode { get; set; }
+        [ForeignKey("Poster")] public int PosterId { get; set; }
+        [ForeignKey("User")] public int UserId { get; set; }
     }
 }

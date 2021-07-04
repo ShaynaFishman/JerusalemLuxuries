@@ -7,10 +7,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JerusalemLuxuries.Models
 {
-    public class PaymentMethodModel
+    public class ImageModel
     {
-        [Key] public int PaymentMethodId { get; set; }
-        [MaxLength(30)] public string Description { get; set; }
-        //Examples of payments types: Credit Card, Debit Card
+        [Key] public int ImageId { get; set; }
+        public byte[] PropertyImage { get; set; }
+        [ForeignKey("Property")] public int PropertyId { get; set; }
     }
 }
