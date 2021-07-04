@@ -23,6 +23,6 @@ namespace JerusalemLuxuryDomain.Models
         public DateTime RenewalDate { get; set; }
 
         [ForeignKey("PaymentMethodModel")]
-        public List<PaymentMethodModel> PaymentMethod { get; set; }
+        public List<PaymentMethod> PaymentMethod { get; set; }
     }
 }

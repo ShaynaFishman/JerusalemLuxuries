@@ -49,9 +49,9 @@ namespace JerusalemLuxuryDomain.Models
         [ForeignKey("ShortCatId")]
         public int ShortCatId { get; set; }
 
-        public List<FeedbackModel> FeedbackId { get; set; }
-        public List<PictureModel> PictureId { get; set; }
+        public List<Feedback> FeedbackId { get; set; }
+        //public List<Picture> PictureId { get; set; }
 
-        public List<AccountingModel> AccountingId { get; set; }
+        public List<Accounting> AccountingId { get; set; }
     }
 }
