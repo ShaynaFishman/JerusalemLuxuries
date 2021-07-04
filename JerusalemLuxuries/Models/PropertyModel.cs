@@ -25,11 +25,11 @@ namespace JerusalemLuxuries.Models
         public int ContractLength { get; set; }
         //public byte Pictures { get; set; }
         public bool Swap { get; set; }
-        [ForeignKey("PosterId")] public int PosterId { get; set; }
-        [ForeignKey("AssetId")] public int AssetId { get; set; }
-        [ForeignKey("DescriptionId")] public int DescriptionId { get; set; }        
-        [ForeignKey("PropertyCategory")] public int PropertyCategoryId { get; set; }
-        [ForeignKey("ShortTermCategory")] public int ShortTermCategoryId { get; set; }
+        [ForeignKey("PosterModel")] public int PosterId { get; set; }
+        [ForeignKey("AssetModel")] public int AssetId { get; set; }
+        [ForeignKey("DescriptionModel")] public int DescriptionId { get; set; }        
+        [ForeignKey("PropertyCategoryModel")] public int PropertyCategoryId { get; set; }
+        [ForeignKey("ShortTermCategoryModel")] public int ShortTermCategoryId { get; set; }
         //public List<Feedback> FeedbackId { get; set; }
         //public List<PictureModel> PictureId { get; set; }
         //public List<Accounting> AccountingId { get; set; }
